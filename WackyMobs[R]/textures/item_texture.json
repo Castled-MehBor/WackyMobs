@@ -1,0 +1,259 @@
+{
+  "resource_pack_name": "Furnicraft[Resource]",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "spawn_egg": {
+      "textures": [
+        "textures/items/egg_chicken",
+        "textures/items/egg_cow",
+        "textures/items/egg_pig",
+        "textures/items/egg_sheep",
+        "textures/items/egg_wolf",
+        "textures/items/egg_mushroomcow",
+        "textures/items/egg_creeper",
+        "textures/items/egg_enderman",
+        "textures/items/egg_silverfish",
+        "textures/items/egg_skeleton",
+        "textures/items/egg_slime",
+        "textures/items/egg_spider",
+        "textures/items/egg_zombie",
+        "textures/items/egg_pigzombie",
+        "textures/items/egg_villager",
+        "textures/items/egg_squid",
+        "textures/items/egg_ocelot",
+        "textures/items/egg_witch",
+        "textures/items/egg_bat",
+        "textures/items/egg_ghast",
+        "textures/items/egg_lava_slime",
+        "textures/items/egg_blaze",
+        "textures/items/egg_cave_spider",
+        "textures/items/egg_horse",
+        "textures/items/egg_rabbit",
+        "textures/items/egg_endermite",
+        "textures/items/egg_guardian",
+        "textures/items/egg_stray",
+        "textures/items/egg_husk",
+        "textures/items/egg_wither",
+        "textures/items/egg_donkey",
+        "textures/items/egg_mule",
+        "textures/items/egg_skeletonhorse",
+        "textures/items/egg_zombiehorse",
+        "textures/items/egg_shulker",
+        "textures/items/egg_npc",
+        "textures/items/egg_elderguardian",
+        "textures/items/egg_polarbear",
+        "textures/items/egg_llama",
+        "textures/items/egg_vindicator",
+        "textures/items/egg_evoker",
+        "textures/items/egg_vex",
+        "textures/items/egg_zombievillager",
+        "textures/items/egg_parrot",
+        "textures/items/egg_clownfish",
+        "textures/items/egg_cod",
+        "textures/items/egg_pufferfish",
+        "textures/items/egg_salmon",
+        "textures/items/egg_drowned",
+        "textures/items/egg_dolphin",
+        "textures/items/egg_turtle",
+        "textures/items/egg_phantom",
+        "textures/items/egg_agent",
+        "textures/items/egg_cat",
+        "textures/items/egg_panda",
+        "textures/items/egg_null",
+        "textures/items/egg_mask",
+        "textures/items/egg_bear",
+        "textures/items/egg_buffalo",
+        "textures/items/egg_camel",
+        "textures/items/egg_duck",
+        "textures/items/egg_lion",
+        "textures/items/egg_penguin",
+        "textures/items/egg_steve",
+        "textures/items/egg_alex",
+        "textures/items/egg_hamster",
+        "textures/items/egg_starfish",
+        "textures/items/egg_npc",
+        "textures/items/egg_npc_scientist",
+        "textures/items/egg_nether_creeper",
+        "textures/items/egg_flea",
+        "textures/items/egg_bird",
+        "textures/items/egg_tiger",
+        "textures/items/egg_ender_creeper",
+        "textures/items/egg_ender_skeleton",
+        "textures/items/egg_elephant",
+        "textures/items/egg_deer",
+        "textures/items/egg_welter",
+        "textures/items/egg_emerged",
+        "textures/items/egg_frozen_beast",
+        "textures/items/egg_zushroom",
+        "textures/items/egg_corrupted_skeleton",
+        "textures/items/egg_panther",
+        "textures/items/egg_frog",
+        "textures/items/egg_tortoise",
+        "textures/items/egg_brown_mooshroom",
+        "textures/items/egg_crocodile",
+        "textures/items/egg_mouse",
+        "textures/items/egg_bumblebee",
+        "textures/items/egg_hippo"
+      ]
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "banca": {
+      "textures": "textures/items/banca"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "banera": {
+      "textures": "textures/items/banera"
+    },
+    "estufa": {
+      "textures": "textures/items/estufa"
+    },
+    "lampara": {
+      "textures": "textures/items/lampara"
+    },
+    "lavadero": {
+      "textures": "textures/items/lavadero"
+    },
+    "lavavo": {
+      "textures": "textures/items/lavavo"
+    },
+    "max": {
+      "textures": "textures/items/max"
+    },
+    "robert": {
+      "textures": "textures/items/robert"
+    },
+    "nevera": {
+      "textures": "textures/items/nevera"
+    },
+    "pc": {
+      "textures": "textures/items/pc"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "regadera": {
+      "textures": "textures/items/regadera"
+    },
+    "retrete": {
+      "textures": "textures/items/retrete"
+    },
+    "sillagamer": {
+      "textures": "textures/items/sillagamer"
+    },
+    "sillamadera": {
+      "textures": "textures/items/sillamadera"
+    },
+    "sillapiedra": {
+      "textures": "textures/items/sillapiedra"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "ventilador": {
+      "textures": "textures/items/ventilador"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "billar": {
+      "textures": "textures/items/billar"
+    },
+    "columpio": {
+      "textures": "textures/items/columpio"
+    },
+    "futbolito": {
+      "textures": "textures/items/futbolito"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "mpeluches": {
+      "textures": "textures/items/mpeluches"
+    },
+    "pacman": {
+      "textures": "textures/items/pacman"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "tumbacreeper": {
+      "textures": "textures/items/tumbacreeper"
+    },
+    "tumbanormal": {
+      "textures": "textures/items/tumbanormal"
+    },
+    "tumbacruz": {
+      "textures": "textures/items/tumbacruz"
+    },
+    "fuente": {
+      "textures": "textures/items/fuente"
+    },
+    "pizza": {
+      "textures": "textures/items/pizza"
+    },
+    "satanic": {
+      "textures": "textures/items/satanic"
+    },
+    "trampolin": {
+      "textures": "textures/items/trampolin"
+    },
+    "micro": {
+      "textures": "textures/items/micro"
+    },
+    "resbaladilla": {
+      "textures": "textures/items/resbaladilla"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "saltapicina": {
+      "textures": "textures/items/saltapicina"
+    },
+    "sillaplaya": {
+      "textures": "textures/items/sillaplaya"
+    },
+    "sombrilla": {
+      "textures": "textures/items/sombrilla"
+    },
+    "humanos": {
+      "textures": "textures/items/humanos"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "auto": {
+      "textures": "textures/items/auto"
+    },
+    "mchiclesg": {
+      "textures": "textures/items/mchiclesg"
+    },
+    "mchiclesc": {
+      "textures": "textures/items/mchiclesc"
+    },
+    "patitas": {
+      "textures": "textures/items/patitas"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "muebletv": {
+      "textures": "textures/items/muebletv"
+    },
+    "chimenea": {
+      "textures": "textures/items/chimenea"
+    }
+  }
+}

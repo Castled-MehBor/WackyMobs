@@ -1,0 +1,1472 @@
+{
+  "minecraft:entity": {
+    "format_version": 0.1,
+      },
+      "action0.1": {
+        "minecraft:explode": {
+          "fuseLength": 0,
+          "fuseLit": true,
+          "power": 3,
+          "causesFire": false
+        }
+      },
+      "action1.1": {
+        "minecraft:explode": {
+          "fuseLength": 0,
+          "fuseLit": true,
+          "power": 9,
+          "causesFire": true
+        }
+      },
+      "action2.1": {
+        "minecraft:explode": {
+          "fuseLength": 0,
+          "fuseLit": true,
+          "power": 15,
+          "causesFire": true
+        }
+      },
+      "action3.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:vindicator"
+        }
+      },
+      "action4.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:tnt"
+        }
+      },
+     "action5.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:creeper"
+        }
+      },
+      "action6.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:wither.boss"
+        }
+      },
+      "action7.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:guardian.elder"
+        }
+      },
+     "action8.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:witch"
+        }
+      },
+      "action9.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:shulker"
+        }
+      },
+      "action10.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:silverfish"
+        }
+      },
+      "action11.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:ghast"
+        }
+      },
+      "action12.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:skeleton.wither"
+        }
+      },
+     "action13.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:lightningbolt"
+        }
+      },
+      "action14.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:skeleton.stray"
+        }
+      },
+      "action15.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:guardian"
+        }
+      },
+      "action16.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:zombie"
+        }
+      },
+      "action17.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:enderman"
+        }
+      },
+      "action18.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:dragon"
+        }
+      },
+     "action19.1": {
+        "minecraft:transformation": {
+          "into": "minecraft:arrow"
+        }
+      },
+      "action20.1": {
+        "minecraft:transformation":{
+          "into": "minecraft:spider"
+        }
+      },
+      "action21.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 23,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },  
+      "action22.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 22,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },
+      "action23.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 30,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },  
+      "action24.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 27,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },
+	  "action25.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "vex"
+        }
+      },
+	  "action26.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "slime"
+        }
+      },
+	  "action27.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "zombie_pigman"
+        }
+      },
+	  "action28.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "endermite"
+        }
+      },
+	  "action39.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "wolf"
+        }
+      },
+	  "action30.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "bat"
+        }
+      },
+	  "action31.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "rabbit"
+        }
+      },
+	  "action32.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "guardian"
+        }
+      },
+	  "action33.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "creeper"
+        }
+      },
+	  "action34.1": {
+	    "minecraft:spawn_entity": {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "husk"
+        }
+      },
+      "action35.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 17,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },  
+      "action36.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 25,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },
+      "action37.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 12,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      },  
+      "action38.1": {
+        "minecraft:projectile": {
+          "onHit": {
+            "spawn_aoe_cloud": {
+              "radius": 5.0,
+              "radius_on_use": 0,
+              "potion": 16,
+              "particle": "portal",
+              "duration": 25,
+              "color": [ 0, 0, 0 ],
+              "affect_owner": false
+            },
+            "remove_on_hit": { }
+          },
+          "power": 0.0,
+          "gravity": 0.05,
+          "inertia": 1,
+          "anchor": 2,
+          "offset": [ 0, 0, 0 ],
+          "semirandomdiffdamage": true,
+          "uncertaintyBase": 5.0,
+          "reflectOnHurt": false
+        }
+      }
+    },
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:vindicator"
+      },
+      "minecraft:type_family": {
+        "family": [ "luckyblock" ]
+      },
+      "minecraft:navigation.walk": {
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:movement": {
+        "value": 0,
+        "max": 0
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action0"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action1"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action2"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action3"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action4"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action5"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action6"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action7"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action8"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action9"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action10"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action11"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action12"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action13"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action14"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action15"
+              ]
+            }
+          }, 
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action16"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action17"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action18"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action19"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action20"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action21"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action22"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action23"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action24"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action25"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action26"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action27"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action28"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action29"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action30"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action31"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action32"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action33"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action34"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action35"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action36"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action37"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action38"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action39"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action40"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action41"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action42"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action43"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action44"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action45"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action46"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action47"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action48"
+              ]
+            }
+          }, 
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action49"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action50"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action51"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action52"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action53"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action54"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action55"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action56"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action57"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action58"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action59"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action60"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action61"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action62"
+              ]
+            }
+          }, 
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action63"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action64"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action65"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action66"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action67"
+              ]
+            }
+          }, 
+          {
+            "weight": 35,
+            "add": {
+              "component_groups": [
+                "action68"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action69"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action70"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action71"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action72"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action73"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action74"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action75"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action76"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action77"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action78"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action79"
+              ]
+            }
+          }, 
+          {
+            "weight": 35,
+            "add": {
+              "component_groups": [
+                "action80"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action81"
+              ]
+            }
+          },
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action82"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action83"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action84"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action85"
+              ]
+            }
+          },
+          {
+            "weight": 30,
+            "add": {
+              "component_groups": [
+                "action86"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action87"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action88"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action89"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action90"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action91"
+              ]
+            }
+          }, 
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action92"
+              ]
+            }
+          },
+          {
+            "weight": 50,
+            "add": {
+              "component_groups": [
+                "action93"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action94"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action95"
+              ]
+            }
+          }, 
+          {
+            "weight": 40,
+            "add": {
+              "component_groups": [
+                "action96"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action97"
+              ]
+            }
+          },
+          {
+            "weight": 45,
+            "add": {
+              "component_groups": [
+                "action98"
+              ]
+            }
+          }
+        ]
+      },
+      "action50.1": {
+        "add": {
+          "component_groups": [
+            "action50.1"
+          ]
+        }
+      },
+      "action51.1": {
+        "add": {
+          "component_groups": [
+            "action51.1"
+          ]
+        }
+      },
+      "action52.1": {
+        "add": {
+          "component_groups": [
+            "action52.1"
+          ]
+        }
+      },
+      "action53.1": {
+        "add": {
+          "component_groups": [
+            "action53.1"
+          ]
+        }
+      },
+      "action54.1": {
+        "add": {
+          "component_groups": [
+            "action54.1"
+          ]
+        }
+      },
+      "action55.1": {
+        "add": {
+          "component_groups": [
+            "action55.1"
+          ]
+        }
+      },
+      "action56.1": {
+        "add": {
+          "component_groups": [
+            "action56.1"
+          ]
+        }
+      },
+      "action57.1": {
+        "add": {
+          "component_groups": [
+            "action57.1"
+          ]
+        }
+      },
+      "action58.1": {
+        "add": {
+          "component_groups": [
+            "action58.1"
+          ]
+        }
+      },
+      "action59.1": {
+        "add": {
+          "component_groups": [
+            "action59.1"
+          ]
+        }
+      },
+      "action60.1": {
+        "add": {
+          "component_groups": [
+            "action60.1"
+          ]
+        }
+      },
+      "action61.1": {
+        "add": {
+          "component_groups": [
+            "action61.1"
+          ]
+        }
+      },
+      "action62.1": {
+        "add": {
+          "component_groups": [
+            "action62.1"
+          ]
+        }
+      },
+      "action63.1": {
+        "add": {
+          "component_groups": [
+            "action63.1"
+          ]
+        }
+      },
+      "action64.1": {
+        "add": {
+          "component_groups": [
+            "action64.1"
+          ]
+        }
+      },
+      "action65.1": {
+        "add": {
+          "component_groups": [
+            "action65.1"
+          ]
+        }
+      },
+      "action66.1": {
+        "add": {
+          "component_groups": [
+            "action66.1"
+          ]
+        }
+      },
+      "action67.1": {
+        "add": {
+          "component_groups": [
+            "action67.1"
+          ]
+        }
+      },
+      "action68.1": {
+        "add": {
+          "component_groups": [
+            "action68.1"
+          ]
+        }
+      },
+      "action69.1": {
+        "add": {
+          "component_groups": [
+            "action69.1"
+          ]
+        }
+      },
+      "action70.1": {
+        "add": {
+          "component_groups": [
+            "action70.1"
+          ]
+        }
+      },
+      "action71.1": {
+        "add": {
+          "component_groups": [
+            "action71.1"
+          ]
+        }
+      },
+      "action72.1": {
+        "add": {
+          "component_groups": [
+            "action72.1"
+          ]
+        }
+      },
+      "action73.1": {
+        "add": {
+          "component_groups": [
+            "action73.1"
+          ]
+        }
+      },
+      "action74.1": {
+        "add": {
+          "component_groups": [
+            "action74.1"
+          ]
+        }
+      },
+      "action75.1": {
+        "add": {
+          "component_groups": [
+            "action75.1"
+          ]
+        }
+      },
+      "action76.1": {
+        "add": {
+          "component_groups": [
+            "action76.1"
+          ]
+        }
+      },
+      "action77.1": {
+        "add": {
+          "component_groups": [
+            "action77.1"
+          ]
+        }
+      },
+      "action78.1": {
+        "add": {
+          "component_groups": [
+            "action78.1"
+          ]
+        }
+      },
+      "action79.1": {
+        "add": {
+          "component_groups": [
+            "action79.1"
+          ]
+        }
+      },
+      "action80.1": {
+        "add": {
+          "component_groups": [
+            "action80.1"
+          ]
+        }
+      },
+      "action81.1": {
+        "add": {
+          "component_groups": [
+            "action81.1"
+          ]
+        }
+      },
+      "action82.1": {
+        "add": {
+          "component_groups": [
+            "action82.1"
+          ]
+        }
+      },
+      "action83.1": {
+        "add": {
+          "component_groups": [
+            "action83.1"
+          ]
+        }
+      },
+      "action95.1": {
+        "add": {
+          "component_groups": [
+            "action95.1"
+          ]
+        }
+      },
+      "action96.1": {
+        "add": {
+          "component_groups": [
+            "action96.1"
+          ]
+        }
+      },
+      "action97.1": {
+        "add": {
+          "component_groups": [
+            "action97.1"
+          ]
+        }
+      },
+      "action98.1": {
+        "add": {
+          "component_groups": [
+            "action98.1"
+          ]
+        }
+      }     
+    }
+  }
+}
+
